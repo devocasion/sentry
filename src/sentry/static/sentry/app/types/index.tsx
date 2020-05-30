@@ -436,7 +436,7 @@ export type AppOrProviderOrPlugin =
   | DocumentIntegration;
 
 export type IntegrationType =
-  | 'document_integration'
+  | 'document'
   | 'plugin'
   | 'first_party'
   | 'sentry_app';
